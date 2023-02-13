@@ -4,13 +4,6 @@ import java.util.ArrayList;
 import classes.*;
 
 
-/*
- * Ran Shneor 206011645
- * Bat Yadgar 313265944 
- * Ariel Vaintraub 316512581
- */
-
-
 public class maybe_main {
 
 	public static void main(String[] args) throws Exception, IOException {
