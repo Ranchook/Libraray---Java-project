@@ -1,18 +1,14 @@
 package classes;
 
-
 import java.io.Serializable;
 import java.util.ArrayList;
 
 /*
- * the base class for member and human.
- * the fields are id as  ת.ז and then the name split to first and last 
- * (no middle name).
- * 
+ * The base class for member and human.
+ * The fields are id as  ת.ז and then the name split to first and last (no middle name).
  * */
 
 public class Human implements Serializable  {
-
 
 	private static final long serialVersionUID = 1L;
 	private String id;
