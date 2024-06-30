@@ -2,9 +2,8 @@ package classes;
 
 import java.util.ArrayList;
 
-
 public class Librarian extends Employee {
-
+	
 	//--------------Constructor------------------------------	
 
 	public Librarian(String id, String firstName, String lastName, String employee_id, ArrayList<loan_book> lb_list) {
@@ -13,9 +12,8 @@ public class Librarian extends Employee {
 	}
 
 	//--------------------Functions--------------------
-
 	
-	// check if there are available copies to lend and if so - lend member a copy
+	// Check if there are available copies to lend and if so - lend member a copy
 	public static boolean lendABook(Member mem,Book bk)
 	{
 		if(bk == null)
