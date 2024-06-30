@@ -22,7 +22,6 @@ public class Book implements Serializable {
 		setGenre(gen);
 		setTotal_Copies(cps);
 		setAvail_copies(cps); // when creating a new book all the copies are available
-		
 	}
 	
 	//---------------getters/setters---------------------
@@ -75,21 +74,21 @@ public class Book implements Serializable {
 	public void dec_avail_copies() {
 		this.avail_copies--;
 		}
-	
-	public boolean searchBookAth(String ath) {  //search book by author
+
+	// Search book by author
+	public boolean searchBookAth(String ath) {
 	if(author_name == ath)
 		return true;
 	else
 		return false;
-		
 	}
-	
-	public boolean searchBookName(String name) {  //search book by name
+
+	// Search book by name
+	public boolean searchBookName(String name) {  
 		if(book_name == name)
 			return true;
 		else
 			return false;
-			
 	}
 	
 	public String toString() {
